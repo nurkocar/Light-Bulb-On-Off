@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+button {
+  outline: none;
+  padding: 10px 30px;
+  font-size: larger;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 7px;
+  display: block;
+  margin: 10px auto;
+}
+img {
+  width: 200px;
+  height: auto;
+}
