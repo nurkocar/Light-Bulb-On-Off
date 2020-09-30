@@ -1,6 +1,8 @@
 const buttonElement = document.querySelector("#turnOnOff");
 const imgElement = document.querySelector("#bulb");
 
+
+
 function turnOnOff() {
     
   if (imgElement.src.includes("ONbulb")) {
@@ -17,3 +19,5 @@ function turnOnOff() {
 
   }
 }
+
+buttonElement.addEventListener('click', turnOnOff);
